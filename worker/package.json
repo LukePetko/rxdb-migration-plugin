@@ -1,0 +1,21 @@
+{
+    "name": "worker",
+    "version": "0.0.1",
+    "type": "module",
+    "main": "./dist/worker.js",
+    "scripts": {
+        "dev:worker": "vite",
+        "build:worker:development": "vite build --mode development"
+    },
+    "dependencies": {
+        "rxdb": "^15.34.0",
+        "rxdb-premium": "^15.34.0"
+    },
+    "devDependencies": {
+        "@types/node": "^22.7.2",
+        "esbuild": "^0.24.0",
+        "typescript": "^5.6.2",
+        "vite": "^5.4.8"
+    }
+}
+
